@@ -1,0 +1,7 @@
+@use './../abstracts/' as *;
+
+.table-row {
+  color: $tableText;
+  width: 100%;
+  white-space: nowrap;
+}

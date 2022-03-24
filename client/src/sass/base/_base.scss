@@ -1,0 +1,14 @@
+@use './../abstracts/' as *;
+
+#root {
+  width: 60%;
+  margin: 0 auto;
+  background-color: $backgroundColor;
+  border-radius: 15px;
+  padding: 50px;
+  margin-top: 20px;
+}
+
+.home {
+  width: 60%;
+}

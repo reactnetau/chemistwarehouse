@@ -1,0 +1,39 @@
+@use './../abstracts/' as *;
+
+.btn {
+  width: 100%;
+  border-radius: 5px;
+  background-color: $btnColor;
+}
+
+.btn-link {
+  width: 90px;
+  border: 1px solid black;
+  border-radius: 5px;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+
+  margin: 3px;
+  background-color: $btnColor;
+  color: $btnText;
+}
+
+.btn-data {
+  width: 200px;
+  float: left;
+  vertical-align: top;
+}
+
+.btn-add {
+  width: 190px;
+  border: 1px solid black;
+  border-radius: 5px;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  color: $btnText;
+  margin: 3px;
+  background-color: $btnColor;
+  padding: 15px 30px;
+}
